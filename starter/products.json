@@ -1,0 +1,94 @@
+[
+   
+    {
+      "name": "gedgdfdgd Accent Chair",
+      "price": 199.99,
+      "description": "A luxurious velvet accent chair for stylish and comfortable seating.",
+      "features": ["Velvet upholstery", "Sturdy wooden legs", "Contemporary design"],
+      "category": "Furniture",
+      "quantity": 20,
+      "img_url": "https://example.com/velvet_accent_chair.jpg"
+    },
+    {
+      "name": "Modern Wall Clock",
+      "price": 49.99,
+      "description": "Sleek and minimalist wall clock to add a touch of modernity to your space.",
+      "features": ["Quartz movement", "Metal frame", "Easy to read numbers"],
+      "category": "Decor",
+      "quantity": 15,
+      "img_url": "https://example.com/modern_wall_clock.jpg"
+    },
+    {
+      "name": "Floral Throw Blanket",
+      "price": 29.99,
+      "description": "Soft and cozy throw blanket with a beautiful floral pattern.",
+      "features": ["Polyester material", "Generous size", "Machine washable"],
+      "category": "Decor",
+      "quantity": 25,
+      "img_url": "https://example.com/floral_throw_blanket.jpg"
+    },
+    {
+      "name": "Wooden Floating Shelves",
+      "price": 79.99,
+      "description": "Set of minimalist wooden floating shelves for displaying decor items.",
+      "features": ["Solid wood construction", "Easy to install", "Versatile design"],
+      "category": "Furniture",
+      "quantity": 10,
+      "img_url": "https://example.com/wooden_floating_shelves.jpg"
+    },
+    {
+      "name": "Artificial Potted Plant",
+      "price": 39.99,
+      "description": "Realistic artificial potted plant to bring a touch of nature indoors.",
+      "features": ["High-quality faux foliage", "Ceramic pot", "No maintenance required"],
+      "category": "Decor",
+      "quantity": 30,
+      "img_url": "https://example.com/artificial_potted_plant.jpg"
+    },
+    {
+      "name": "Velvet Accent Chair",
+      "price": 179.99,
+      "description": "Plush velvet accent chair with a modern design for stylish seating.",
+      "features": ["Velvet upholstery", "Sturdy metal legs", "Contoured back"],
+      "category": "Furniture",
+      "quantity": 15,
+      "img_url": "https://example.com/velvet_chair.jpg"
+    },
+    {
+      "name": "Geometric Patterned Rug",
+      "price": 79.99,
+      "description": "Durable rug with a trendy geometric pattern to enhance your living space.",
+      "features": ["Polypropylene material", "Non-slip backing", "Easy to clean"],
+      "category": "Decor",
+      "quantity": 30,
+      "img_url": "https://example.com/geometric_rug.jpg"
+    },
+    {
+      "name": "Ceramic Plant Pots Set",
+      "price": 49.99,
+      "description": "Set of stylish ceramic plant pots for adding greenery to your home.",
+      "features": ["Ceramic material", "Assorted sizes", "Sleek and modern design"],
+      "category": "Decor",
+      "quantity": 20,
+      "img_url": "https://example.com/plant_pots.jpg"
+    },
+    {
+      "name": "Antique Brass Table Lamp",
+      "price": 129.99,
+      "description": "Elegant table lamp with an antique brass finish for ambient lighting.",
+      "features": ["Brass construction", "Fabric shade", "On/off switch"],
+      "category": "Decor",
+      "quantity": 10,
+      "img_url": "https://example.com/table_lamp.jpg"
+    },
+    {
+      "name": "Abstract Canvas Wall Art",
+      "price": 59.99,
+      "description": "Vibrant abstract canvas art to add a pop of color to your walls.",
+      "features": ["Canvas material", "Gallery-wrapped", "Ready to hang"],
+      "category": "Decor",
+      "quantity": 25,
+      "img_url": "https://example.com/wall_art.jpg"
+    }
+  
+  ]
