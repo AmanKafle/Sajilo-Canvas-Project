@@ -1,6 +1,7 @@
 const mongoose = require('mongoose')
 
-const productSchema = new mongoose.Schema({
+  
+  const productSchema = new mongoose.Schema({
     name:{
         type:String,
         required:[true, 'must provide a name']
@@ -15,18 +16,11 @@ const productSchema = new mongoose.Schema({
         default:10
 
     },
-    
-    
-    
-        
-    
     category:{
         type: String,
         enum:{
             values:['Furniture','Kitchen','Bathroom','Decor']
         }
-    
-
     },
     img_url:{
         type:String,
