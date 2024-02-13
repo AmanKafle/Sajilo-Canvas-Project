@@ -11,10 +11,11 @@ const connectDB = require("./db/connect");
 const productsRouter = require("./routes/products");
 const authRouter = require("./routes/auth");
 const cartRouter = require("./routes/cart");
+const adminRouter = require('./routes/admin')
 // const authMiddleware = require('./middleware/authentication')
 
 //middleware
-app.use(cors({ credentials: true, origin: "http://localhost:5173" }));
+// app.use(cors({ credentials: true, origin: "http://localhost:5173" }));
 app.use(express.json());
 app.use(errorMiddleware);
 // app.use(authMiddleware)
@@ -27,6 +28,7 @@ app.get("/", (req, res) => {
 });
 app.use("/api/v1", productsRouter, authRouter);
 app.use("/api/v1/cart", cartRouter);
+app.use("/api/v1/admin", adminRouter);
 // app.use('/')
 
 //products routes
