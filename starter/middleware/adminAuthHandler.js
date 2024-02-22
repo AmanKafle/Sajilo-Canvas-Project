@@ -1,13 +1,25 @@
-const adminEmail ="admin@gmail.com"
-const adminPass = "admin123"
+const User = require("../models/user");
+const jwt = require("jsonwebtoken");
+const { UnauthenticatedError } = require("../errors");
 
-const adminAuthHandler = (req, res, next) =>{
-    const{email, password} = req.body 
-     if(email == adminEmail && password == adminPass){
-        next();
-     }
-     else{
-        res.status(401).json({success : false , error : 'unauthorized'})
-     }
-}
-module.exports = adminAuthHandler
+const auth = async (req, res, next) => {
+  const authHeader = req.headers.authorization;
+  if (!authHeader || !authHeader.startsWith("Bearer")) {
+    throw new UnauthenticatedError("Authentication invalid1");
+  }
+
+  try {
+    const payload = jwt.verify(
+      req.headers.cookie.split("=")[1],
+      process.env.JWT_SECRET
+    );
+    if (payload.id !== "admin") {
+      throw new UnauthenticatedError("Authentication invalid");
+    }
+    next();
+  } catch (error) {
+    throw new UnauthenticatedError("Authentication invalid");
+  }
+};
+
+module.exports = auth;
