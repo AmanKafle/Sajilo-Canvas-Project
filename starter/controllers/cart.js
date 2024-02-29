@@ -3,7 +3,7 @@ const addToCart = async (req, res) => {
   const { productId, quantity, name, price } = req.body;
   console.log(req.body);
   const userId = req.user._id;
-  // console.log(req.user._id);
+// console.log(req.user._id);
   // console.log(_id, productId, quantity, name, price);
   try {
     let cart = await Cart.findOne({ userId });
