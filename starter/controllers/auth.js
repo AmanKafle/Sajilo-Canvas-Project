@@ -22,15 +22,7 @@ const login = async (req, res) => {
     const token = jwt.sign({ id: "admin" }, process.env.JWT_SECRET);
     res.cookie("jwt", token, { httpOnly: true, maxAge: 3600000 });
     res.status(StatusCodes.OK).json({ user: { name: "admin" }, token });
-  } else if (email == "designer1@gmail.com" && password == "pass1234") {
-    const token = jwt.sign({ id: "designer1" }, process.env.JWT_SECRET);
-    res.cookie("jwt", token, { httpOnly: true, maxAge: 3600000 });
-    res.status(StatusCodes.OK).json({ user: { name: "desginer1" }, token });
-  } else if (email == "designer2@gmail.com" && password == "pass1234") {
-    const token = jwt.sign({ id: "designer2" }, process.env.JWT_SECRET);
-    res.cookie("jwt", token, { httpOnly: true, maxAge: 3600000 });
-    res.status(StatusCodes.OK).json({ user: { name: "desginer2" }, token });
-  }
+  } 
   const user = await User.findOne({ email });
   if (!user) {
     throw new UnauthenticatedError("Invalid Credentials");
