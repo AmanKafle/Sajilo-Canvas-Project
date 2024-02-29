@@ -18,7 +18,7 @@ const currentUserInfo = async (req, res) => {
 
       }
     const freshUser = await User.findById(payload.id);
-    res.json(freshUser)
+    res.json({name:freshUser.name , role: freshUser.role, email:freshUser.email})
  
     } catch (error) {
       throw new UnauthenticatedError("Authentication invalid");
