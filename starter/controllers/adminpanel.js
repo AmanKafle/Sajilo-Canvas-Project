@@ -1,5 +1,6 @@
 const Product = require("../models/product");
 const Projectinfo = require("../models/projectinfo");
+const User = require('../models/user');
 
 const productHandler = async (req, res) => {
   const { category, name, sort, fields, numericFilters } = req.query;
@@ -110,11 +111,16 @@ const getallproject = async(req,res) =>{
   const project = await Projectinfo.find({});
   res.json({project});
 }
+const getalldesigner = async(req,res)=>{
+  const desingers = await User.find({role:"Designer"})
+  res.json({desingers})
+}
 module.exports = {
   productHandler,
   getOneProduct,
   deleteProduct,
   createProduct,
   editProduct,
-  getallproject
+  getallproject,
+  getalldesigner
 };
