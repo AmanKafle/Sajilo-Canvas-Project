@@ -10,12 +10,25 @@ const projectSchema = new mongoose.Schema({
             required : [true , 'must have a image'],
             
         },
-        description: String
+        editedurl:{
+            type:[String],
+            
+        },
+     description: String
     }],
     blueprintURL: {
         type: String,
         required: [ true, 'must have a blueprint']
-    }
+    },
+    progress:{
+        type: String,
+        enum:{
+            values:['Pending','Completed']},default: "Pending"},
+    userid:{
+        type: String,
+        required: [ true, 'must have a userId']
+    },
+    forwardedto: String,
 
 
 })

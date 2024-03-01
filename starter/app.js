@@ -14,6 +14,7 @@ const cartRouter = require("./routes/cart");
 const adminRouter = require("./routes/admin");
 const meRouter = require("./routes/me");
 const uploadRouter = require("./routes/project");
+const designerRouter = require("./routes/designer")
 // const authMiddleware = require('./middleware/authentication')
 
 //middleware
@@ -31,6 +32,7 @@ app.get("/", (req, res) => {
 app.use("/api/v1", productsRouter, authRouter, meRouter, uploadRouter);
 app.use("/api/v1/cart", cartRouter);
 app.use("/api/v1/admin", adminRouter);
+app.use("/api/v1/designer", designerRouter);
 
 // app.use('/')
 

@@ -1,4 +1,5 @@
 const Product = require("../models/product");
+const Projectinfo = require("../models/projectinfo");
 
 const productHandler = async (req, res) => {
   const { category, name, sort, fields, numericFilters } = req.query;
@@ -103,11 +104,17 @@ const editProduct = async (req, res) => {
   } catch (err) {
     res.status(400).json({ error: err.message });
   }
+  
 };
+const getallproject = async(req,res) =>{
+  const project = await Projectinfo.find({});
+  res.json({project});
+}
 module.exports = {
   productHandler,
   getOneProduct,
   deleteProduct,
   createProduct,
   editProduct,
+  getallproject
 };

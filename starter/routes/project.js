@@ -2,8 +2,12 @@ const express = require("express");
 const router = express.Router();
 
 const authMiddleware = require("../middleware/authentication");
-const {projectinfo} = require('../controllers/projectpage')
+const adminAuthMiddleware = require('../middleware/adminAuthHandler');
 
-router.route('/upload').post( projectinfo);
+const {projectinfo,forwardedinfo} = require('../controllers/projectpage')
+
+router.route('/upload').post(authMiddleware, projectinfo);
+router.route('/forward').post(adminAuthMiddleware,forwardedinfo);
+
 
 module.exports = router ;
