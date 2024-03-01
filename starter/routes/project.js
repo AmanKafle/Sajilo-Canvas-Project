@@ -7,7 +7,7 @@ const adminAuthMiddleware = require('../middleware/adminAuthHandler');
 const {projectinfo,forwardedinfo,projectupdate} = require('../controllers/projectpage')
 
 router.route('/upload').post(authMiddleware, projectinfo);
-router.route('/forward').post(adminAuthMiddleware,forwardedinfo);
+router.route('/admin/forward').post(adminAuthMiddleware,forwardedinfo);
 router.route('/projectupdate').get(authMiddleware, projectupdate);
 
 

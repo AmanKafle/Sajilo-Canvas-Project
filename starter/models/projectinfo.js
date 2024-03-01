@@ -23,7 +23,7 @@ const projectSchema = new mongoose.Schema({
     progress:{
         type: String,
         enum:{
-            values:['Pending','Completed']},default: "Pending"},
+            values:['Pending','Completed','Delivered']},default: "Pending"},
     userid:{
         type: String,
         required: [ true, 'must have a userId']
