@@ -15,7 +15,7 @@ const adminRouter = require("./routes/admin");
 const meRouter = require("./routes/me");
 const uploadRouter = require("./routes/project");
 const designerRouter = require("./routes/designer")
-const paymentRouter = require("./routes/payment")
+const paymentRouter = require("./routes/paymentv2")
 // const authMiddleware = require('./middleware/authentication')
 
 //middleware
@@ -34,6 +34,7 @@ app.use("/api/v1", productsRouter, authRouter, meRouter, uploadRouter,paymentRou
 app.use("/api/v1/cart", cartRouter);
 app.use("/api/v1/admin", adminRouter);
 app.use("/api/v1/designer", designerRouter);
+
 
 // app.use('/')
 
