@@ -34,6 +34,8 @@ const project = await Projectinfo.findOneAndUpdate(
     res.json({project});
 }
 
+
+
 module.exports ={
     getallproject,editImg
 

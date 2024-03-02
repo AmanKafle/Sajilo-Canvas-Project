@@ -1,6 +1,7 @@
 const Product = require("../models/product");
 const Projectinfo = require("../models/projectinfo");
 const User = require('../models/user');
+const Payment = require('../models/payment');
 
 const productHandler = async (req, res) => {
   const { category, name, sort, fields, numericFilters } = req.query;
@@ -115,6 +116,31 @@ const getalldesigner = async(req,res)=>{
   const desingers = await User.find({role:"Designer"})
   res.json({desingers})
 }
+const projectupdate = async(req,res) =>{
+const project = await Projectinfo.findOneAndUpdate(
+  {_id:req.body.projectId },
+ { $set :{
+     progress: req.body.progress
+ }},
+ {new : true})
+
+
+ res.json({project});
+}
+const getallpayment = async(req,res) =>{
+  const payment = await Payment.find({})
+  res.json(payment)
+}
+const paymentverify = async(req,res) =>{
+  const verify = await Payment.findOneAndUpdate({_id:req.body.id },
+    { $set :{
+        status : req.body.status
+    }},
+    {new : true})
+   
+   
+    res.json({verify});
+}
 module.exports = {
   productHandler,
   getOneProduct,
@@ -122,5 +148,8 @@ module.exports = {
   createProduct,
   editProduct,
   getallproject,
-  getalldesigner
+  getalldesigner,
+  projectupdate,
+  getallpayment,
+  paymentverify
 };
