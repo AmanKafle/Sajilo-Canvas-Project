@@ -2,6 +2,7 @@ const Product = require("../models/product");
 const Projectinfo = require("../models/projectinfo");
 const User = require('../models/user');
 const Payment = require('../models/payment');
+const Order = require('../models/order')
 
 const productHandler = async (req, res) => {
   const { category, name, sort, fields, numericFilters } = req.query;
@@ -153,6 +154,18 @@ const paymentverify = async(req,res) =>{
    
     res.json({verify});
 }
+const getallorder = async(req,res)=>{
+  const order = await find({})
+  
+  res.json({order})
+}
+const productupdate = async (req,res)=>{
+  productId = req.body.productId
+  const productupdate = await Product.find({_id: productId},{ $set :{
+      quantity: (quantity - req.body.quantity),
+  }},
+  {new : true})
+  res.json({productupdate})}
 module.exports = {
   productHandler,
   getOneProduct,
@@ -163,5 +176,7 @@ module.exports = {
   getalldesigner,
   projectupdate,
   getallpayment,
-  paymentverify
+  paymentverify,
+  getallorder,
+  productupdate
 };

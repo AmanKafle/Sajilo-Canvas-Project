@@ -15,7 +15,17 @@ const payments = async(req,res)=>{
     const payment = await Payment.create({...req.body, userid:req.user._id})
     res.json({payment})
 }
-
+const confirmation=async(req,res)=>{
+    const pidx=req.body.pidx;
+    const khaltiResponse=await axios.post("https://a.khalti.com/api/v2/epayment/lookup/",{
+        pidx,
+    })
+    res.json({
+        success:true,
+        data:khaltiResponse?.data
+    })
+}
 module.exports ={
-    payments
+    payments,
+    confirmation
 }
