@@ -109,7 +109,19 @@ const editProduct = async (req, res) => {
   
 };
 const getallproject = async(req,res) =>{
-  const project = await Projectinfo.find({});
+  const{progress , ProjectId , userid} = req.query
+  const queryobject = {};
+  if (progress) {
+    queryobject.progress = progress;
+  }
+  if (ProjectId){
+    queryobject.ProjectId = ProjectId;
+  }
+  if (userid){
+    queryobject.userid = userid ;
+  }
+
+  const project = await Projectinfo.find(queryobject);
   res.json({project});
 }
 const getalldesigner = async(req,res)=>{
