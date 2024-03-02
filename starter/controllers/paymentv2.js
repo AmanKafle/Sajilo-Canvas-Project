@@ -32,7 +32,7 @@ const confirmation=async(req,res)=>{
         })
     }catch(err){
         console.log(err);
-        res.json({err:err?.data})
+        res.json({err:err})
     }
 }
 module.exports ={
