@@ -20,7 +20,11 @@ const confirmation=async(req,res)=>{
     try{
 
         const khaltiResponse=await axios.post("https://a.khalti.com/api/v2/epayment/lookup/",{
-            pidx,
+            pidx:pidx,
+        },{
+            headers:{
+                Authorization:`key a215718fae8e4e1887298cef087c9c75`
+            }
         })
         res.json({
             success:true,
