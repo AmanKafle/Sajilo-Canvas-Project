@@ -8,7 +8,12 @@ const projectinfo = async (req, res) => {
 const projectupdate = async(req,res)=>{
     id = req.user._id
     
-    let projects = await Projectinfo.find({userid : id,progress: "Delivered"});
+    
+    let projects = await Projectinfo.find({userid : id});
+    if (projects.progress == "Pending" || "Completed"){
+        projects = await Projectinfo.find({userid: id}, {rooms:{ editedurl :0}})
+    }
+
    
     
     res.json({projects})
