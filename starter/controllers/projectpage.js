@@ -10,7 +10,7 @@ const projectupdate = async(req,res)=>{
     
     
     let projects = await Projectinfo.find({userid : id});
-    if (projects.progress == "Pending" || "Completed"){
+    if (projects.progress === "Pending" | "Completed"){
         projects = await Projectinfo.find({userid: id}, {rooms:{ editedurl :0}})
     }
 
