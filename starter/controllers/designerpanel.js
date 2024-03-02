@@ -4,6 +4,8 @@ const Projectinfo = require('../models/projectinfo')
 
 const getallproject = async(req,res) =>
 {
+   
+  
     const email= req.user.email;
     const project = await Projectinfo.find({forwardedto: email});
     res.json({project});

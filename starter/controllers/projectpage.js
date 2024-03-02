@@ -9,7 +9,7 @@ const projectinfo = async (req, res) => {
 }
 const projectupdate = async(req,res)=>{
     id = req.user._id
-    let projects1 = await Projectinfo.find({userid : id,$or:[{progress:"Pending"},{progress:"completed"}]},{rooms:{ editedurl :0}});
+    let projects1 = await Projectinfo.find({userid : id,$or:[{progress:"Pending"},{progress:"Completed"}]},{rooms:{ editedurl :0}});
     let projects2 = await Projectinfo.find({userid : id,progress:"Delivered"});
 
     res.json([...projects1,...projects2])
