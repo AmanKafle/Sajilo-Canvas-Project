@@ -12,7 +12,6 @@ const orderSchema = new mongoose.Schema({
 
 
     },
-    address:[{
         District: {
             type: String,
             required: [true, 'Must have a district']
@@ -27,8 +26,7 @@ const orderSchema = new mongoose.Schema({
             type: String,
             required: [true, 'Must have a pickup point']
 
-        }
-    }],
+        },
     PhoneNo: {
         type : Number ,
         required : [true , 'Must have a phone No.']
