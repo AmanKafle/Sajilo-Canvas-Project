@@ -7,6 +7,6 @@ const authMiddleware = require('../middleware/authentication')
 const adminAuthHandler = require('../middleware/adminAuthHandler')
 
 router.route('/order').post(authMiddleware, createorder);
-router.route('/orderhistory').get(adminAuthHandler, orderinfo);
+router.route('/orderhistory').get(authMiddleware, orderinfo);
 
 module.exports = router;
