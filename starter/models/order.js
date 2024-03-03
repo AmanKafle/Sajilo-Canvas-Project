@@ -40,14 +40,13 @@ const orderSchema = new mongoose.Schema({
 
     },
     userId: {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: "User",
+        type: String,
+        
       },
       products: [
         {
           productId: {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: "Product",
+            type:String,
           },
           quantity: Number,
           name: String,
