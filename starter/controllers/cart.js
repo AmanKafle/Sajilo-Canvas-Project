@@ -1,4 +1,5 @@
 const Cart = require("../models/cart");
+const Order = require("../models/order");
 const addToCart = async (req, res) => {
   const { productId, quantity, name, price } = req.body;
   console.log(req.body);
@@ -34,6 +35,11 @@ const addToCart = async (req, res) => {
     res.status(500).send("Something went wrong");
   }
 };
+const deleteorderedcart = async(req,res)=>{
+  const cart = await Cart.findOneAndDelete({_id: req.body.cartid})
+    
+  res.json({msg:`cart deleted`})
+}
 const getAllCart = async (req, res) => {
   const userId = req.user._id;
   try {
@@ -76,4 +82,5 @@ module.exports = {
   addToCart,
   getAllCart,
   deleteCartItem,
+  deleteorderedcart
 };

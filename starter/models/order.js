@@ -42,6 +42,9 @@ const orderSchema = new mongoose.Schema({
         type: String,
         
       },
+      cartid:{
+              type:String,
+      },
       products: [
         {
           productId: {
