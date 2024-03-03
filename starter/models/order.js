@@ -1,6 +1,17 @@
 const mongoose = require ('mongoose')
 
 const orderSchema = new mongoose.Schema({
+    Fullname :{
+        type:String,
+        required : [true , 'Must have a UserName.'],
+
+
+    },   Email :{
+        type:String,
+        required : [true , 'Must have a Email.'],
+
+
+    },
     address:[{
         District: {
             type: String,

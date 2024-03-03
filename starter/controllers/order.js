@@ -11,15 +11,9 @@ const createorder = async(req,res)=>{
     const Neworder = await Order.create({...req.body,userid:req.user._id})
     res.json({Neworder})
 }
-const productupdate = async (req,res)=>{
-    projectId = req.body.projectId
-    const productupdate = await Product.find({_id: projectId},{ $set :{
-        quantity: (quantity - 1),
-    }},
-    {new : true})
-    res.json({productupdate})
 
-}
+
+
 module.exports = {
     productupdate,
     createorder,
