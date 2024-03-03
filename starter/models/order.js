@@ -34,11 +34,10 @@ const orderSchema = new mongoose.Schema({
     status:{
         type: String,
         enum:{
-            values:['Pending', 'success'],
-            default:'Pending'
-        }
+            values:["Not verified", "Verified","Delivering", "Delivered"]},
+            default: "Not verified"},
 
-    },
+    
     userId: {
         type: String,
         

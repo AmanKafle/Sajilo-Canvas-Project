@@ -155,17 +155,28 @@ const paymentverify = async(req,res) =>{
     res.json({verify});
 }
 const getallorder = async(req,res)=>{
-  const order = await find({})
+  const {status}= req.query
+  const queryobject= {};
+
+  if (status){
+    queryobject.status = status;
+  }
+  const order = await Order.find(queryobject)
   
   res.json({order})
 }
-const productupdate = async (req,res)=>{
-  productId = req.body.productId
-  const productupdate = await Product.find({_id: productId},{ $set :{
-      quantity: (quantity - req.body.quantity),
+const orderupdate =async(req,res)=>{
+  const order = await Order.findOneAndUpdate({_id: req.body.orderid},
+    {$set :{
+      status : req.body.status
   }},
   {new : true})
-  res.json({productupdate})}
+  
+    res.json({order})
+
+}
+
+
 module.exports = {
   productHandler,
   getOneProduct,
@@ -178,5 +189,5 @@ module.exports = {
   getallpayment,
   paymentverify,
   getallorder,
-  productupdate
+  orderupdate
 };
