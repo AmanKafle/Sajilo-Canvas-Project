@@ -31,6 +31,14 @@ const orderSchema = new mongoose.Schema({
         type : Number ,
         required : [true , 'Must have a phone No.']
     },
+    status:{
+        type: String,
+        enum:{
+            values:['Pending', 'success'],
+            default:'Pending'
+        }
+
+    },
     userId: {
         type: mongoose.Schema.Types.ObjectId,
         ref: "User",
