@@ -21,7 +21,7 @@ const orderSchema = new mongoose.Schema({
             type: String,
             required: [true, 'Must have a city']
 
-        },
+        }, 
         Pickuppoint: {
             type: String,
             required: [true, 'Must have a pickup point']
@@ -54,4 +54,4 @@ const orderSchema = new mongoose.Schema({
     totalamount : Number
     })
     
-module.export = mongoose.model('Order', orderSchema)
+module.exports = mongoose.model('Order', orderSchema)
