@@ -15,7 +15,6 @@ const createorder = async(req,res)=>{
 
 
 module.exports = {
-    productupdate,
     createorder,
     orderinfo
 }

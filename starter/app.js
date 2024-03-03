@@ -16,7 +16,7 @@ const meRouter = require("./routes/me");
 const uploadRouter = require("./routes/project");
 const designerRouter = require("./routes/designer")
 const paymentRouter = require("./routes/paymentv2");
-const orderRouter = require("./controllers/order");
+const orderRouter = require("./routes/order");
 // const authMiddleware = require('./middleware/authentication')
 
 //middleware
