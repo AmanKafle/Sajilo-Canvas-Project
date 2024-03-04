@@ -1,13 +1,13 @@
 [
    
     {
-      "name": "gedgdfdgd Accent Chair",
+      "name": "Accent Chair",
       "price": 199.99,
       "description": "A luxurious velvet accent chair for stylish and comfortable seating.",
       "features": ["Velvet upholstery", "Sturdy wooden legs", "Contemporary design"],
       "category": "Furniture",
       "quantity": 20,
-      "img_url": "https://example.com/velvet_accent_chair.jpg"
+      "img_url": "https://previews.123rf.com/images/wolfhound911/wolfhound9112402/wolfhound911240214503/225973931-wooden-chest-of-drawers-against-white-wall-with-art-poster-frame-mid-century-style-interior-design.jpg"
     },
     {
       "name": "Modern Wall Clock",
@@ -16,7 +16,7 @@
       "features": ["Quartz movement", "Metal frame", "Easy to read numbers"],
       "category": "Decor",
       "quantity": 15,
-      "img_url": "https://example.com/modern_wall_clock.jpg"
+      "img_url": "https://previews.123rf.com/images/thavornc/thavornc1212/thavornc121200016/16899195-clock-showing-3-o-clock-pm-on-a-green-wall.jpg"
     },
     {
       "name": "Floral Throw Blanket",
@@ -25,7 +25,7 @@
       "features": ["Polyester material", "Generous size", "Machine washable"],
       "category": "Decor",
       "quantity": 25,
-      "img_url": "https://example.com/floral_throw_blanket.jpg"
+      "img_url": "https://previews.123rf.com/images/morrowlight21/morrowlight212210/morrowlight21221000056/192832070-stack-of-knitted-wool-textile-sweaters-clothes-on-white-blanket-in-bed-at-home-room-close-up-winter.jpg"
     },
     {
       "name": "Wooden Floating Shelves",
@@ -34,7 +34,7 @@
       "features": ["Solid wood construction", "Easy to install", "Versatile design"],
       "category": "Furniture",
       "quantity": 10,
-      "img_url": "https://example.com/wooden_floating_shelves.jpg"
+      "img_url": "https://previews.123rf.com/images/aspmedia/aspmedia2303/aspmedia230300032/201260178-white-bookshelves-on-orange-wall-3d-render-illustration.jpg"
     },
     {
       "name": "Artificial Potted Plant",
@@ -43,7 +43,7 @@
       "features": ["High-quality faux foliage", "Ceramic pot", "No maintenance required"],
       "category": "Decor",
       "quantity": 30,
-      "img_url": "https://example.com/artificial_potted_plant.jpg"
+      "img_url": "https://previews.123rf.com/images/teteescape/teteescape1910/teteescape191000065/131643071-concrete-pot-minimal-style-green-succulent-plant-in-modern-geometric-concrete-planter-on-wooden.jpg"
     },
     {
       "name": "Velvet Accent Chair",
@@ -52,7 +52,7 @@
       "features": ["Velvet upholstery", "Sturdy metal legs", "Contoured back"],
       "category": "Furniture",
       "quantity": 15,
-      "img_url": "https://example.com/velvet_chair.jpg"
+      "img_url": "https://previews.123rf.com/images/studioaccendo/studioaccendo2304/studioaccendo230404168/202157435-3d-render-of-chair-in-room-with-green-wall-and-floor.jpg"
     },
     {
       "name": "Geometric Patterned Rug",
@@ -61,7 +61,7 @@
       "features": ["Polypropylene material", "Non-slip backing", "Easy to clean"],
       "category": "Decor",
       "quantity": 30,
-      "img_url": "https://example.com/geometric_rug.jpg"
+      "img_url": "https://previews.123rf.com/images/alfazetchronicles/alfazetchronicles2306/alfazetchronicles230634745/207419838-vibrant-traditional-persian-rug-with-intricate-patterns-created-with-generative-ai.jpg"
     },
     {
       "name": "Ceramic Plant Pots Set",
@@ -70,7 +70,7 @@
       "features": ["Ceramic material", "Assorted sizes", "Sleek and modern design"],
       "category": "Decor",
       "quantity": 20,
-      "img_url": "https://example.com/plant_pots.jpg"
+      "img_url": "https://previews.123rf.com/images/studioaccendo/studioaccendo2304/studioaccendo230404168/202157435-3d-render-of-chair-in-room-with-green-wall-and-floor.jpg"
     },
     {
       "name": "Antique Brass Table Lamp",
@@ -79,7 +79,7 @@
       "features": ["Brass construction", "Fabric shade", "On/off switch"],
       "category": "Decor",
       "quantity": 10,
-      "img_url": "https://example.com/table_lamp.jpg"
+      "img_url": "https://previews.123rf.com/images/sharafmaksumov/sharafmaksumov1802/sharafmaksumov180200044/94799603-table-lamp-with-the-mirror-in-a-hotel-room.jpg"
     },
     {
       "name": "Abstract Canvas Wall Art",
@@ -88,7 +88,7 @@
       "features": ["Canvas material", "Gallery-wrapped", "Ready to hang"],
       "category": "Decor",
       "quantity": 25,
-      "img_url": "https://example.com/wall_art.jpg"
+      "img_url": "https://previews.123rf.com/images/aberrantrealities/aberrantrealities2310/aberrantrealities231073116/216452489-an-abstract-art-print-hanging-on-a-wall-in-a-room.jpg"
     }
   
   ]

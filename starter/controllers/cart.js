@@ -50,7 +50,7 @@ const getAllCart = async (req, res) => {
       total: cart.length,
     });
   } catch (err) {
-    return res.status(500).json({
+    return res.status(201).json({
       success: false,
       msg: "Cart Empty",
       error: err,
