@@ -5,7 +5,7 @@ const payments = async(req,res)=>{
     const payload=req.body;
     const khaltiResponse=await axios.post("https://a.khalti.com/api/v2/epayment/initiate/",payload,{
         headers:{
-            Authorization:`key a215718fae8e4e1887298cef087c9c75`
+            Authorization:`key 1e24fde9cfd54dc29c5bb981bf501818`
         }
     })
     res.json({
@@ -23,7 +23,7 @@ const confirmation=async(req,res)=>{
             pidx:pidx,
         },{
             headers:{
-                Authorization:`key a215718fae8e4e1887298cef087c9c75`
+                Authorization:`key 1e24fde9cfd54dc29c5bb981bf501818`
             }
         })
         res.json({

@@ -14,7 +14,7 @@
       "price": 49.99,
       "description": "Sleek and minimalist wall clock to add a touch of modernity to your space.",
       "features": ["Quartz movement", "Metal frame", "Easy to read numbers"],
-      "category": "Decor",
+      "category": "Decoratives",
       "quantity": 15,
       "img_url": "https://previews.123rf.com/images/thavornc/thavornc1212/thavornc121200016/16899195-clock-showing-3-o-clock-pm-on-a-green-wall.jpg"
     },
@@ -23,7 +23,7 @@
       "price": 29.99,
       "description": "Soft and cozy throw blanket with a beautiful floral pattern.",
       "features": ["Polyester material", "Generous size", "Machine washable"],
-      "category": "Decor",
+      "category": "Decoratives",
       "quantity": 25,
       "img_url": "https://previews.123rf.com/images/morrowlight21/morrowlight212210/morrowlight21221000056/192832070-stack-of-knitted-wool-textile-sweaters-clothes-on-white-blanket-in-bed-at-home-room-close-up-winter.jpg"
     },
@@ -41,7 +41,7 @@
       "price": 39.99,
       "description": "Realistic artificial potted plant to bring a touch of nature indoors.",
       "features": ["High-quality faux foliage", "Ceramic pot", "No maintenance required"],
-      "category": "Decor",
+      "category": "Decoratives",
       "quantity": 30,
       "img_url": "https://previews.123rf.com/images/teteescape/teteescape1910/teteescape191000065/131643071-concrete-pot-minimal-style-green-succulent-plant-in-modern-geometric-concrete-planter-on-wooden.jpg"
     },
@@ -59,7 +59,7 @@
       "price": 79.99,
       "description": "Durable rug with a trendy geometric pattern to enhance your living space.",
       "features": ["Polypropylene material", "Non-slip backing", "Easy to clean"],
-      "category": "Decor",
+      "category": "Decoratives",
       "quantity": 30,
       "img_url": "https://previews.123rf.com/images/alfazetchronicles/alfazetchronicles2306/alfazetchronicles230634745/207419838-vibrant-traditional-persian-rug-with-intricate-patterns-created-with-generative-ai.jpg"
     },
@@ -68,7 +68,7 @@
       "price": 49.99,
       "description": "Set of stylish ceramic plant pots for adding greenery to your home.",
       "features": ["Ceramic material", "Assorted sizes", "Sleek and modern design"],
-      "category": "Decor",
+      "category": "Decoratives",
       "quantity": 20,
       "img_url": "https://previews.123rf.com/images/studioaccendo/studioaccendo2304/studioaccendo230404168/202157435-3d-render-of-chair-in-room-with-green-wall-and-floor.jpg"
     },
@@ -77,7 +77,7 @@
       "price": 129.99,
       "description": "Elegant table lamp with an antique brass finish for ambient lighting.",
       "features": ["Brass construction", "Fabric shade", "On/off switch"],
-      "category": "Decor",
+      "category": "Decoratives",
       "quantity": 10,
       "img_url": "https://previews.123rf.com/images/sharafmaksumov/sharafmaksumov1802/sharafmaksumov180200044/94799603-table-lamp-with-the-mirror-in-a-hotel-room.jpg"
     },
@@ -86,9 +86,234 @@
       "price": 59.99,
       "description": "Vibrant abstract canvas art to add a pop of color to your walls.",
       "features": ["Canvas material", "Gallery-wrapped", "Ready to hang"],
-      "category": "Decor",
+      "category": "Decoratives",
       "quantity": 25,
       "img_url": "https://previews.123rf.com/images/aberrantrealities/aberrantrealities2310/aberrantrealities231073116/216452489-an-abstract-art-print-hanging-on-a-wall-in-a-room.jpg"
+    },
+    {
+      "name": "Abstract Canvas Wall Art 2",
+      "price": 49.99,
+      "description": "Bold abstract canvas art for a modern touch.",
+      "features": ["Canvas material", "Gallery-wrapped", "Ready to hang"],
+      "category": "Decoratives",
+      "quantity": 20,
+      "img_url": "https://previews.123rf.com/images/aberrantrealities/aberrantrealities2310/aberrantrealities231073116/216452489-an-abstract-art-print-hanging-on-a-wall-in-a-room.jpg"
+    },
+    {
+      "name": "Colorful Abstract Painting",
+      "price": 69.99,
+      "description": "A burst of colors in this abstract painting to brighten up any space.",
+      "features": ["Canvas material", "Stretched canvas", "Ready to hang"],
+      "category": "Decoratives",
+      "quantity": 15,
+      "img_url": "https://image.shutterstock.com/image-photo/modern-abstract-oil-painting-on-260nw-567856085.jpg"
+    },
+    {
+      "name": "Geometric Abstract Art Print",
+      "price": 39.99,
+      "description": "Geometric patterns in this abstract art print for a contemporary look.",
+      "features": ["High-quality print", "Unframed", "Easy to hang"],
+      "category": "Decoratives",
+      "quantity": 30,
+      "img_url": "https://image.shutterstock.com/image-photo/colorful-geometric-background-260nw-553258582.jpg"
+    },
+    {
+      "name": "Minimalist Abstract Canvas",
+      "price": 54.99,
+      "description": "Simple yet striking, this minimalist abstract canvas adds sophistication to any room.",
+      "features": ["Canvas material", "Gallery-wrapped", "Ready to hang"],
+      "category": "Decoratives",
+      "quantity": 25,
+      "img_url": "https://image.shutterstock.com/image-photo/abstract-painting-image-260nw-1054675959.jpg"
+    },
+    {
+      "name": "Vibrant Abstract Artwork",
+      "price": 79.99,
+      "description": "Vibrant colors and bold strokes make this abstract artwork a focal point in any space.",
+      "features": ["Canvas material", "Stretched canvas", "Ready to hang"],
+      "category": "Decoratives",
+      "quantity": 12,
+      "img_url": "https://image.shutterstock.com/image-photo/colorful-abstract-painting-260nw-580443086.jpg"
+    },
+    {
+      "name": "Contemporary Abstract Print",
+      "price": 44.99,
+      "description": "A contemporary twist on abstract art, perfect for adding intrigue to your walls.",
+      "features": ["High-quality print", "Unframed", "Easy to hang"],
+      "category": "Decoratives",
+      "quantity": 18,
+      "img_url": "https://image.shutterstock.com/image-photo/modern-abstract-oil-painting-on-260nw-617724218.jpg"
+    },
+    {
+      "name": "Pastel Abstract Canvas",
+      "price": 64.99,
+      "description": "Soft pastel tones blend harmoniously in this abstract canvas, creating a serene atmosphere.",
+      "features": ["Canvas material", "Gallery-wrapped", "Ready to hang"],
+      "category": "Decoratives",
+      "quantity": 22,
+      "img_url": "https://image.shutterstock.com/image-photo/abstract-art-background-260nw-709848927.jpg"
+    },
+    {
+      "name": "Abstract Landscape Painting",
+      "price": 74.99,
+      "description": "An abstract take on the beauty of landscapes, adding a touch of nature to your walls.",
+      "features": ["Canvas material", "Stretched canvas", "Ready to hang"],
+      "category": "Decoratives",
+      "quantity": 14,
+      "img_url": "https://image.shutterstock.com/image-photo/colorful-abstract-painting-landscape-260nw-780543810.jpg"
+    },
+    {
+      "name": "Modern Abstract Art Print",
+      "price": 49.99,
+      "description": "Sleek and contemporary, this abstract art print is perfect for minimalist interiors.",
+      "features": ["High-quality print", "Unframed", "Easy to hang"],
+      "category": "Decoratives",
+      "quantity": 28,
+      "img_url": "https://image.shutterstock.com/image-photo/abstract-art-background-260nw-1072796251.jpg"
+    },
+    {
+      "name": "Abstract Expressionism Canvas",
+      "price": 59.99,
+      "description": "Embrace the freedom of expression with this abstract canvas inspired by the art movement.",
+      "features": ["Canvas material", "Gallery-wrapped", "Ready to hang"],
+      "category": "Decoratives",
+      "quantity": 16,
+      "img_url": "https://image.shutterstock.com/image-photo/abstract-art-background-260nw-751112076.jpg"
+    },
+    {
+      "name": "Wooden Floating Shelves 2",
+      "price": 69.99,
+      "description": "Sleek wooden floating shelves to showcase your favorite items.",
+      "features": ["Solid wood construction", "Easy to install", "Versatile design"],
+      "category": "Furniture",
+      "quantity": 12,
+      "img_url": "https://previews.123rf.com/images/aspmedia/aspmedia2303/aspmedia230300032/201260178-white-bookshelves-on-orange-wall-3d-render-illustration.jpg"
+    },
+    {
+      "name": "Minimalist Floating Wall Shelves",
+      "price": 89.99,
+      "description": "A set of minimalist floating shelves crafted from high-quality wood.",
+      "features": ["Solid wood construction", "Easy to install", "Modern design"],
+      "category": "Furniture",
+      "quantity": 8,
+      "img_url": "https://image.shutterstock.com/image-illustration/3d-render-empty-white-niche-260nw-1771686869.jpg"
+    },
+    {
+      "name": "Rustic Wooden Floating Shelves",
+      "price": 99.99,
+      "description": "Add a touch of rustic charm with these wooden floating shelves.",
+      "features": ["Solid wood construction", "Easy to install", "Classic design"],
+      "category": "Furniture",
+      "quantity": 6,
+      "img_url": "https://image.shutterstock.com/image-photo/wooden-shelves-against-gray-wall-260nw-538086755.jpg"
+    },
+    {
+      "name": "Modern Wall Mounted Shelves",
+      "price": 79.99,
+      "description": "Contemporary wall mounted shelves for a sleek and organized space.",
+      "features": ["Solid wood construction", "Easy to install", "Contemporary design"],
+      "category": "Furniture",
+      "quantity": 10,
+      "img_url": "https://image.shutterstock.com/image-photo/contemporary-still-life-wooden-bookshelf-260nw-201422893.jpg"
+    },
+    {
+      "name": "Floating Display Shelves",
+      "price": 69.99,
+      "description": "Versatile floating shelves to showcase your favorite collectibles.",
+      "features": ["Solid wood construction", "Easy to install", "Versatile design"],
+      "category": "Furniture",
+      "quantity": 12,
+      "img_url": "https://image.shutterstock.com/image-photo/empty-wooden-shelves-wall-background-260nw-1030720176.jpg"
+    },
+    {
+      "name": "Corner Floating Shelves",
+      "price": 84.99,
+      "description": "Maximize space with these corner floating shelves, perfect for small rooms.",
+      "features": ["Solid wood construction", "Easy to install", "Space-saving design"],
+      "category": "Furniture",
+      "quantity": 7,
+      "img_url": "https://image.shutterstock.com/image-photo/corner-shelves-wall-background-260nw-1554937364.jpg"
+    },
+    {
+      "name": "Bamboo Floating Shelves",
+      "price": 94.99,
+      "description": "Eco-friendly bamboo floating shelves for a sustainable home.",
+      "features": ["Bamboo construction", "Easy to install", "Natural design"],
+      "category": "Furniture",
+      "quantity": 5,
+      "img_url": "https://image.shutterstock.com/image-photo/natural-bamboo-shelves-isolated-on-260nw-1476867599.jpg"
+    },
+    {
+      "name": "White Floating Wall Shelves",
+      "price": 79.99,
+      "description": "Clean and contemporary white floating shelves to brighten up any space.",
+      "features": ["Solid wood construction", "Easy to install", "Modern design"],
+      "category": "Furniture",
+      "quantity": 10,
+      "img_url": "https://image.shutterstock.com/image-photo/white-wooden-shelves-isolated-on-260nw-1057847246.jpg"
+    },
+    {
+      "name": "Industrial Floating Shelves",
+      "price": 109.99,
+      "description": "Industrial-style floating shelves for an edgy urban look.",
+      "features": ["Solid wood construction", "Easy to install", "Industrial design"],
+      "category": "Furniture",
+      "quantity": 4,
+      "img_url": "https://image.shutterstock.com/image-photo/industrial-style-shelving-brackets-wooden-260nw-1650378874.jpg"
+    },
+    {
+      "name": "Hexagonal Floating Shelves",
+      "price": 79.99,
+      "description": "Unique hexagonal floating shelves to add geometric flair to your walls.",
+      "features": ["Solid wood construction", "Easy to install", "Geometric design"],
+      "category": "Furniture",
+      "quantity": 10,
+      "img_url": "https://image.shutterstock.com/image-photo/hexagon-shelves-white-wall-260nw-1930120564.jpg"
+    },
+    {
+      "name": "Corner Shower Shelves",
+      "price": 79.99,
+      "description": "Convenient corner shower shelves for organizing bath essentials.",
+      "features": ["Solid wood construction", "Easy to install", "Water-resistant"],
+      "category": "Bathroom",
+      "quantity": 10,
+      "img_url": "https://image.shutterstock.com/image-photo/corner-shower-caddy-organizer-hanging-260nw-572012258.jpg"
+    },
+    {
+      "name": "Kitchen Wall Mounted Shelves",
+      "price": 79.99,
+      "description": "Practical wall-mounted shelves for storing kitchen utensils and spices.",
+      "features": ["Solid wood construction", "Easy to install", "Kitchen organization"],
+      "category": "Kitchen",
+      "quantity": 10,
+      "img_url": "https://image.shutterstock.com/image-photo/kitchen-utensils-wooden-shelves-wall-260nw-743920027.jpg"
+    },
+    {
+      "name": "Bathroom Floating Shelves",
+      "price": 79.99,
+      "description": "Sleek floating shelves for organizing toiletries in the bathroom.",
+      "features": ["Solid wood construction", "Easy to install", "Space-saving design"],
+      "category": "Bathroom",
+      "quantity": 10,
+      "img_url": "https://image.shutterstock.com/image-photo/toiletries-bathroom-floating-shelves-above-260nw-1928151246.jpg"
+    },
+    {
+      "name": "Rustic Kitchen Wall Shelves",
+      "price": 89.99,
+      "description": "Rustic-style wall shelves to display cookbooks and kitchenware.",
+      "features": ["Solid wood construction", "Easy to install", "Rustic design"],
+      "category": "Kitchen",
+      "quantity": 8,
+      "img_url": "https://image.shutterstock.com/image-photo/kitchen-wooden-shelves-260nw-1363507851.jpg"
+    },
+    {
+      "name": "Bamboo Bathroom Shelves",
+      "price": 84.99,
+      "description": "Eco-friendly bamboo shelves for organizing bath towels and toiletries.",
+      "features": ["Bamboo construction", "Easy to install", "Water-resistant"],
+      "category": "Bathroom",
+      "quantity": 7,
+      "img_url": "https://image.shutterstock.com/image-photo/white-wooden-bathroom-shelves-background-260nw-1866711240.jpg"
     }
   
   ]

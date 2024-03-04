@@ -19,7 +19,7 @@ const mongoose = require('mongoose')
     category:{
         type: String,
         enum:{
-            values:['Furniture','Kitchen','Bathroom','Decor']
+            values:['Furniture','Kitchen','Bathroom','Decoratives']
         }
     },
     img_url:{
