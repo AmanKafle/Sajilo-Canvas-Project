@@ -12,8 +12,8 @@ const payments = async(req,res)=>{
         success:true,
         data:khaltiResponse?.data
     })
-    const payment = await Payment.create({...req.body, userid:req.user._id})
-    res.json({payment})
+    // const payment = await Payment.create({...req.body, userid:req.user._id})
+    // res.json({payment})
 }
 const confirmation=async(req,res)=>{
     const pidx=req.body.pidx;
